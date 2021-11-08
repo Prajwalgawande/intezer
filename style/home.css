@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+header
+
+*/
+
+
+
+
+.container{
+    color: rgb(111, 179, 235);
+}
+
+.logo img{
+    height: 45px;
+    width: 45px;
+    padding: 10px 15px;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 30px 10px 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.logo{
+    display: flex;
+    
+}
+.nav_list{
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 20px;
+}
+.nav_items a{
+    padding: 10px 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color:rgb(111, 179, 235);
+   }
+.nav_items a:hover{
+    background-color: rgb(0, 255, 255);
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(4, 11, 73) , rgb(136, 4, 125));
+    background-size: cover;
+    color: rgb(111, 179, 235);
+    background-repeat:  no-repeat;
+    
+}
+
+.container{
+    width: 95vw;
+    height: 100vh;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.heading p{
+    padding: 12px 0px;
+    font-size: 20px;
+    color: rgb(111, 179, 235);
+}
+.heading #title {
+    font-weight: 800;
+}
+
+/*
+
+ body section
+
+*/
+.content{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:800px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+.file_upload {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 5rem;
+    background-color: rgb(40, 13, 53);
+} 
+.file_upload label{
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.analyze {
+    height: 30px;
+    width: 90px;
+    margin-top: 1rem;
+    background-color: rgb(243, 127, 228);
+    border-radius: 5px;
+    
+   
+    
+}
+.analyze:hover{
+    background-color: rgb(187, 70, 216);
+}
+.analyze a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.hash_analyze{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 5rem;
+    background-color: rgb(40, 13, 53);
+    border-left: 6px solid rgb(107, 12, 116);
+}
+.hash_analyze p{
+    padding-bottom: 1.5rem;
+}
+
+
+
+

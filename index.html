@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <title>INTESER ANALYZE</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../logo.png" alt="logo">
+                <p class="title">INTEZER ANAlYZE</p>
+            </div>
+            <div class="nav_list">
+                <li class="nav_items"><a href="./index.html">Home</a></li>
+                <li class="nav_items"> <a href="">Docs</a></li>
+                <li class="nav_items"><a href="">Intrgration</a></li>
+                <li class="nav_items"><a href="">Plugins</a></li>
+            </div>
+        </nav>
+    <div class="heading">
+        <p>
+            <span id="title">INTEZER ANALYZE |</span> All malware analysis tool
+            under one platform
+        </p>
+    </div>
+    
+    <div class="content">
+    
+        <div class="file_upload">
+            <i class="fa fa-upload" aria-hidden="true"></i>
+            <label for="files">Upload file here</label>
+            <input type="file"name="file"  id="files" />
+            <button class="analyze file"><a href="./file_analysis/file_analysis.html"> Analyze</a></button>
+        </div>
+        <div class="hash_analyze">
+            <p>Analyze by Hash</p>
+            <input type="text" id="hash" placeholder="SHA256/ SHA1/ MD5" />
+            <button class="analyze hash"><a href=".//file_analysis/file_analysis.html">Analyze</a> </button>
+        </div>
+    </div>
+</div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

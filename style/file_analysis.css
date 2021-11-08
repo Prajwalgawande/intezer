@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:rgb(4, 11, 73);
+}
+
+.container{
+   
+    color: rgb(111, 179, 235);
+    
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+    padding: 10px 30px 10px 30px;
+}
+.logo p{
+    padding: 20px 30px 10px 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, rgb(4, 11, 73) , rgb(136, 4, 125));
+    background-repeat:  no-repeat;
+    position: relative;
+    
+}
+.logo{
+    display: flex;
+    
+}
+.nav_list{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+.nav_items a{
+    padding: 10px 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color:rgb(111, 179, 235);
+   }
+   .nav_items a:hover{
+       background-color: rgb(0, 255, 255);
+       color: black;
+       border-radius: 5px;
+   }
+
+
+.side_menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 90%;
+    width: 30%;
+    background-color:rgb(4, 11, 73);
+    list-style: none;
+    text-align: center;
+}
+.menu_items{
+    padding: 1rem 3rem;
+    background-color: rgb(170, 0, 204);
+    color: rgb(0, 0, 8);
+    margin: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu_items:hover{
+    background-color: rgb(0, 255, 255);
+    box-shadow: 4px 2px 7px rgb(248, 50, 238);
+    color: black;
+}
+
+
+
+/* 
+
+main content
+
+*/
+.main_content{
+    background-image: linear-gradient(to bottom right, rgb(4, 11, 73) , rgb(136, 4, 125));
+    background-repeat:  no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    height: 90vh;
+    
+}
+
+
+
+/*
+
+file status and name section
+
+*/
+.file{
+  margin:0 ;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(59, 10, 10);
+   
+}
+.file_status{
+    width: 4rem;
+   padding: 2rem;
+}
+
+.file_name p{
+    padding: 5px;
+}
+.heading{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+.genetic_analysis{
+    border-top: 5px solid rgb(59, 10, 10);
+    border-radius: 20px;
+    padding-top: 20px;
+  
+}
+.genetic_analysis span{
+    margin-left: 250px;
+}
+.genetic_analysis div{
+    padding: 0.5rem 2rem;
+}
+
+
+/* 
+
+iocs section
+
+*/
+
+.network_iocs{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+div.network_iocs h3{
+    margin-bottom: 10px;
+}
+.network_boxes{
+ 
+ border-top: 5px solid rgb(59, 10, 10);
+ border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ padding: 0px 20px;
+ 
+}
+.type,.ioc,.type_source,.classification{
+    padding: 20px 40px;
+}
+div.network_boxes > div > h4{
+    padding: 10px 0px;
+
+}
+
+.files_iocs h3{
+ margin-top: 20px;
+}
+.file_boxes{
+    
+    border-top: 5px solid rgb(59, 10, 10);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding-left: 20px;
+    justify-content: center;
+   
+ 
+ 
+}
+.file_boxes div p{
+    padding: 10px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sha256 ,.type, .path, .classification_files{
+    padding: 20px;
+    
+}
+
+
+/* 
+
+ttps section
+*/
+table{
+    margin-left: 5px;
+}
+table tr th{
+    text-align: left;
+    padding: 10px;
+   
+}
+table tr td{
+    text-align: left;
+    padding: 8px;
+}
+table, th, td {
+    border:1px solid rgb(10, 150, 150);
+  }
+  .second_table{
+      margin-top: 20px;
+  }
+  .tables h4{
+      margin-top: 20px;
+      padding: 10px 20px;
+  }
